@@ -1,0 +1,392 @@
+
+#container
+{
+	max-width:960px;
+	margin:0px auto;
+	/*background : red;*/
+	border: 2px solid #EBE9EA;
+	
+}
+
+
+
+#left-column
+{
+	width:160px;
+	float:left;
+	background:#D8D8D8;
+	height:250px;
+	z-index: 100;
+	margin-top:-50px;
+	border-left: 1px solid #BABABA;
+	border-bottom: 1px solid #BABABA;
+	position:relative;
+	
+    
+
+}
+
+
+#info
+{
+max-width:160px;
+max-height:40px;
+color:#116EAC;
+padding:5px;
+border-bottom:4px solid #0165A7; 
+position:absolute;
+top:30px;
+right:-50px;
+z-index:400;
+background-color:white;
+border-right:1px solid #BABABA;
+}
+
+#right-column
+{
+	max-width:600px;
+	float:left;
+	/*background:orange;*/
+	position:absolute;
+	bottom:0px;
+	margin-left:160px;
+	height:200px;
+	margin-bottom:300px;
+	
+
+}
+
+#banner
+{
+max-width:960px;
+height:100px;
+background:#EEEDEF;
+border-bottom: 1px solid #BABABA;
+}
+
+#sub-container
+{
+margin-left:200px;
+/*background:gray;*/
+height:500px;
+position:relative;
+
+
+
+
+}
+
+.block
+{
+display: inline-block;
+vertical-align: middle;
+width:100px;
+height:150px;
+margin:40px;
+/*background:black;*/
+/*color:white;*/
+
+
+}
+
+.sub-block-1
+{
+width:auto;
+height:90px;
+}
+
+.sub-block-2
+{
+width:auto;
+height:40px;
+background:#D8D8D8;
+margin-top:10px;
+border-left: 1px solid #BABABA;
+border-top: 1px solid #BABABA;
+border-bottom: 1px solid #BABABA;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* ipad layout*/
+   #container
+	{
+		/*background:red;*/
+		
+		width:100%;
+	margin:0px auto;
+	/*background : red;*/
+	border: 2px solid #EBE9EA;
+	}
+	
+	#info
+{
+max-width:140px;
+max-height:50px;
+color:#116EAC;
+padding:5px;
+border-bottom:4px solid #0165A7; 
+position:absolute;
+top:220px;
+left:0px;
+z-index:400;
+background-color:white;
+
+
+}
+
+#left-column
+{
+	
+	position:relative;
+	border-left:none;
+	
+}
+	
+	
+	
+	
+	
+	#banner
+{
+width:100%;
+height:70px;
+background:#EEEDEF;
+border-bottom: 1px solid #BABABA;
+}
+
+
+
+	
+	#right-column
+	{
+	
+	width:70%;
+	border-left:1px solid #BABABA;
+	border-bottom:1px solid #BABABA;
+	border-right:1px solid #BABABA;
+	
+	background:white;
+	height:250px;
+	z-index: 100;
+	margin-top:-50px;
+	
+
+	}
+	
+	#sub-container
+{
+margin-left:15%;
+/*background:gray;*/
+height:500px;
+position:relative;
+width:75%;
+
+
+
+
+}
+	
+	
+	.block
+{
+
+display:block;
+/*background:black;*/
+/*color:white;*/
+/*background:yellow;*/
+width:80%;
+height:15%;
+margin-left:15px;
+
+}
+
+.sub-block-1
+{
+
+/*background:gray;*/
+float:left;
+height:auto;
+float:left;
+width:60%;
+
+}
+
+.sub-block-2
+{
+width:25%;
+margin-top:0px;
+
+background:#D8D8D8;
+
+border-left: 1px solid #BABABA;
+border-top: 1px solid #BABABA;
+border-bottom: 1px solid #BABABA;
+/*background:orange;*/
+float:right;
+}
+
+	
+}
+
+
+
+@media only screen and (max-width: 560px) {
+    /* phone layout */
+				 /* ipad layout*/
+   #container
+	{
+		/*background:red;*/
+		
+		width:100%;
+	margin:0px auto;
+	/*background : red;*/
+	border: 2px solid #EBE9EA;
+	position:relative;
+	}
+	
+	#banner
+{
+width:100%;
+height:150px;
+background:#EEEDEF;
+border-bottom: 1px solid #BABABA;
+}
+
+
+
+	
+	#right-column
+	{
+	
+	width:100%;
+	border-left:none;
+	border-bottom:none;
+	border-right:none;
+	
+	background:white;
+	height:250px;
+	z-index: none;
+	margin-top:100%;
+	background:white;
+	margin-left:0px;
+	
+	
+
+	}
+	
+	#left-column
+	{
+	z-index: 999;
+	
+	width:100%;
+	
+	background:#D8D8D8;
+	height:250px;
+	z-index: 100;
+	margin-top:-50px;
+	border-left: none;
+	border-bottom: none;
+	position:relative;
+	
+	
+
+	
+	}
+	
+	
+	
+
+
+#info
+{
+max-width:190px;
+max-height:70px;
+color:#116EAC;
+padding:5px;
+border-bottom:4px solid #0165A7; 
+border-right:none; 
+position:absolute;
+top:-70px;
+left:300px;
+z-index:400;
+background-color:white;
+font-size: 110%;
+font-weight: bold;
+
+
+}
+	
+	#sub-container
+{
+margin-left:0%;
+/*background:gray;*/
+height:500px;
+position:relative;
+width:100%;
+
+
+
+
+
+
+}
+	
+	
+	.block
+{
+
+display: inline-block;
+vertical-align: none;
+width:100%;
+height:auto;
+margin:3% auto;
+padding-bottom:5%;
+border-bottom:1px dotted #BABABA;
+font-size: 120%;
+
+
+
+}
+
+.sub-block-1
+{
+
+/*background:gray;*/
+float:left;
+height:auto;
+float:left;
+width:60%;
+padding:2%;
+
+}
+
+.sub-block-2
+{
+width:25%;
+height:70px;
+margin-top:0px;
+
+background:#D8D8D8;
+
+border-left: none;
+border-top: none;
+border-bottom: none;
+/*background:orange;*/
+float:right;
+
+margin-right:2%;
+}
+
+	
+}
+
+
+}
